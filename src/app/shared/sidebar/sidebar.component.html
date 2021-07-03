@@ -4,8 +4,8 @@
     <hr class="text-light">
 
     <div class="list-group list-reset">
-        <a href="#" class="list-group-item list-group-item-action">
-            Dashboard
+        <a *ngFor="let gif of historial" href="#" class="list-group-item list-group-item-action">
+            {{gif}}
         </a>
     </div>
 </div>
